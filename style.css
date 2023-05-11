@@ -1,35 +1,60 @@
 html {
-    background-image: url('./img/backgroud.png');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  }
-  
+  height: 100%;
+  margin: 0 auto;
+  font-family: lucida;
+  color: slateblue;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+    midnightblue,
+    darkslateblue,
+    rebeccapurple,
+    indigo
+  );
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
 
-#gifcat{
-    position: absolute;
-    top: 700px;
-    left: 100px;
-    object-fit: cover;
-    object-position: center;
-    z-index: -1;
+  /* overflow: hidden; */
+}
+
+/* GIFS */
+
+#gifcat {
+  position: absolute;
+  top: 700px;
+  left: 100px;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+#dazz {
+  position: absolute;
+  top: 100px;
+  left: 1400px;
+  z-index: -1;
 }
 
 #diableELiott {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  
-#p1{
-    color: white;
-    position: relative;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 570px;
-  }
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+#meskel {
+  position: relative;
+  left: 1000px;
+  width: 100px;
+  z-index: 1;
+}
+
+#p1 {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 570px;
+  z-index: 100;
+}
